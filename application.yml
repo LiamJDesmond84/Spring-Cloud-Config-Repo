@@ -1,7 +1,7 @@
 my:
   greeting: Updated Testing From Config Server
   list:
-    values: One, Two, Three, Four
+    values: One, Two, Three, Four, Five
 
 db:
   connection: connection-string-here-from-config-server
