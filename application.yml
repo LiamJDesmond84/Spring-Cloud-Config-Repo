@@ -1,5 +1,5 @@
 my:
-  greeting: Testing From Config Server
+  greeting: Updated Testing From Config Server
   list:
     values: One, Two, Three, Four
 
