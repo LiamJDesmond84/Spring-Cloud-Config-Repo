@@ -7,3 +7,12 @@ db:
   connection: connection-string-here-from-config-server
   host: 127.0.0.1
   port: 1200
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    instance:
+      hostname: localhost
