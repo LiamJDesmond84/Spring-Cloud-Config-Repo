@@ -16,3 +16,11 @@ eureka:
       defaultZone: http://localhost:8761/eureka
     instance:
       hostname: localhost
+
+gateway:
+   ip: 192.168.1.186
+   
+token:
+   # 10 days
+   expiration_time: 86400000
+   secret: heyN0w619
